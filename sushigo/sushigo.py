@@ -91,6 +91,7 @@ while True:
     menu()
     
     opcionMenu = int(input("inserta un numero valor >> "))
+    os.system('clear')
 
     if opcionMenu==1:
         two()
