@@ -17,7 +17,7 @@ def two():
     print('El ganador es',max(puntajes),'!!!') 
     print('\n\t\tTabla de posiciones Final\n')
     print('Jugador 1:',puntajes['jugador 1'],'\nJugador 2:',puntajes['jugador 2'])
-
+    time.sleep(5)
 def three():
     x=1
     puntajes = {'jugador 1':0,'jugador 2':0,'jugador 3':0}
@@ -35,7 +35,7 @@ def three():
     print('El ganador es',max(puntajes),'!!!') 
     print('\n\t\tTabla de posiciones Final\n')
     print('Jugador 1:',puntajes['jugador 1'],'\nJugador 2:',puntajes['jugador 2'],'\nJugador 3:',puntajes['jugador 3'])
-
+    time.sleep(5)
 def four():
     x=1
     puntajes = {'jugador 1':0,'jugador 2':0,'jugador 3':0,'jugador 4':0}
@@ -54,6 +54,7 @@ def four():
     print('El ganador es',max(puntajes),'!!!') 
     print('\n\t\tTabla de posiciones Final\n')
     print('Jugador 1:',puntajes['jugador 1'],'\nJugador 2:',puntajes['jugador 2'],'\nJugador 3:',puntajes['jugador 3'],'\nJugador 4:',puntajes['jugador 4'])
+    time.sleep(5)
 
 def five():
     x=1
@@ -74,7 +75,7 @@ def five():
     print('El ganador es',max(puntajes),'!!!') 
     print('\n\t\tTabla de posiciones Final\n')
     print('Jugador 1:',puntajes['jugador 1'],'\nJugador 2:',puntajes['jugador 2'],'\nJugador 3:',puntajes['jugador 3'],'\nJugador 4:',puntajes['jugador 4'],'\nJugador 5:',puntajes['jugador 5'])
-
+    time.sleep(5)
 def menu():
     os.system('clear')
     print ("Elige la cantidad de Jugadores")
